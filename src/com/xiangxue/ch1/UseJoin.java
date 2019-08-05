@@ -54,5 +54,6 @@ public class UseJoin {
 
         SleepTools.second(2);//让主线程休眠2秒
         System.out.println(Thread.currentThread().getName() + " terminate.");
+        System.out.println(Thread.currentThread().getName() + " terminate.");
     }
 }
